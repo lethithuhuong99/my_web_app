@@ -1,7 +1,31 @@
+@@font-face {
+  font-family: "h's font";
+  src:url("../fonts/PatrickHandSC-Regular.ttf");
+}
+
 body {
   color: white;
   background-color: black;
+  font-size: 12 px;
+  font-family: "h's font";
 }
+
+
 p {
   text-align: justify;
+}
+figure {
+  border: 3px solid #ff0;
+  border-radius: 20px;
+  padding: 10px 20px 30px 10px;
+  margin: 10px 10px 50px 10px;
+  width: 100%;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
 }
