@@ -1,19 +1,20 @@
-@@font-face {
-  font-family: "h's font";
+@font-face {
+  font-family: "huong-font";
   src:url("../fonts/PatrickHandSC-Regular.ttf");
 }
 
 body {
   color: #fff;
   background-color: #000;
-  font-size: 12 px;
-  font-family: "h's font";
+  font-size: 19px;
+  font-family: "huong-font";
 }
 
 
 p {
   text-align: justify;
 }
+
 figure {
   border: 3px solid #fff;
   border-radius: 20px;
@@ -22,9 +23,11 @@ figure {
   width: 100%;
   text-align: center;
 }
+
 img {
   max-width: 100%;
 }
+
 figcaption {
   text-align: center;
   font-style: italic;
