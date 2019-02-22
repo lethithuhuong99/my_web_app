@@ -1,0 +1,26 @@
+.people {
+  margin: 19px 0 19px 0;
+  padding: 19px 19px 28px 19px;
+}
+
+#leejongsuk {
+  color: #58281e;
+  background-color: #ffdeac;
+}
+
+#parkshinhye {
+  color: #d2f4d2;
+  background-color: #a70f0f;
+}
+
+#buynbaek-huyn {
+  color: #58281e;
+  background-color: #e6ffe6;
+}
+
+#trieuledinh {
+  color:  #a70f0f;
+  background-color: #c39797;
+}
+
+audio,video {width: 100%}
