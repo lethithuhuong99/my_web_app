@@ -4,7 +4,7 @@
 }
 
 #leejongsuk {
-  color: #58281e;
+  color: #58285e;
   background-color: #ffdeac;
 }
 
@@ -21,6 +21,26 @@
 #trieuledinh {
   color: #000000;
   background-color: #E7FF46;
+}
+
+#leejongsuk figure {
+  border: 3px solid #a1b2c3;
+  border-radius: 20px;
+}
+
+#parkshinhye figure {
+  border: 3px solid #d2f4d2;
+  border-radius: 20px;
+}
+
+#buynbaek-huyn figure {
+  border: 3px solid #58281e;
+  border-radius: 20px;
+}
+
+#trieuledinh figure {
+  border: 3px solid #000000;
+  border-radius: 20px;
 }
 
 audio,video {width: 50%}
