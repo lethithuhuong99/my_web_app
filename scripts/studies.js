@@ -22,21 +22,22 @@ window.onload = function(){
   for (var i=0; i < trs.length; i++){
     trs[i].addEventListener('mouseover',function(event){
       event.preventDefault();
-
       var highlighteds = document.getElementsByClassName('highlight');
       for (var i=highlighteds.length-1; i>=0;i--){
-        highlighteds[i].classList.remove('highlight');
+        highlighteds[i].classList.remove('highlight')
       }
-
       this.classList.add("highlight");
     });
   }
 
-  for (var i=0; i < trs.length; i++){
-    trs[i].addEventListener('mouseout',function(event){
+  //-------------------------------
+  for (var i=0; i < tds.length; i++){
+    tds[i].addEventListener('mouseover',function(event){
       event.preventDefault();
-        highlighteds[i].classList.remove('highlight');
+      for (var i=highlighteds.length-1; i>=0;i--){
+        myTd.innerText = 'null';
+      }
+      myTd.innerText = this.textContent ;
     });
   }
-
 }
