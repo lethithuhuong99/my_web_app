@@ -13,11 +13,12 @@ td,th{
 
 th{
   text-align: center;
-}
-
-tr:nth-child(odd) {
   background-color: #79FFAF;
 }
+
+/* tr:nth-child(odd) {
+  background-color: #79FFAF;
+} */
 
 td:first-child {
   text-align: center;
@@ -31,4 +32,20 @@ td:nth-child(2) {
   background-color: #f00;
   color: : #fff;
   font-weight: bold;
+}
+
+.highlight{
+  background-color: #00f;
+  color: : #fff;
+  font-weight: bold;
+}
+
+#my-td {
+    background-color: #79FFAF;
+    color: : #fff;
+    border: 2px solid #000;
+    margin: 30px 0 30px 0;
+    height: 50px;
+    padding: 25px;
+    font-size: 25px;
 }
