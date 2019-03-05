@@ -1,7 +1,5 @@
 window.onload = function(){
   var tds = document.getElementsByTagName('td');
-  var highlighteds = document.getElementsByClassName('highlighted');
-  var myTd = document.getElementById('my-td');
 
   for (var i=0; i < tds.length; i++){
     tds[i].addEventListener('click',function(event){
@@ -17,27 +15,31 @@ window.onload = function(){
   }
 
 //create mouseover
-  var trs = document.getElementsByTagName('tr');
-  var highlighteds = document.getElementsByClassName('highlight');
-  for (var i=0; i < trs.length; i++){
-    trs[i].addEventListener('mouseover',function(event){
-      event.preventDefault();
-      var highlighteds = document.getElementsByClassName('highlight');
-      for (var i=highlighteds.length-1; i>=0;i--){
-        highlighteds[i].classList.remove('highlight')
-      }
-      this.classList.add("highlight");
-    });
-  }
+  // var trs = document.getElementsByTagName('tr');
+  //
+  // for (var i=0; i < trs.length; i++){
+  //   trs[i].addEventListener('mouseover',function(event){
+  //     event.preventDefault();
+  //     var highlighteds = document.getElementsByClassName('highlight');
+  //     for (var i=highlighteds.length-1; i>=0;i--){
+  //       highlighteds[i].classList.remove('highlight')
+  //     }
+  //     this.classList.add("highlight");
+  //   });
+  // }
 
   //-------------------------------
+  var myTd = document.getElementById('my-td');
+
   for (var i=0; i < tds.length; i++){
     tds[i].addEventListener('mouseover',function(event){
-      for (var i=highlighteds.length-1; i>=0;i--){
-        myTd.innerText = 'null';
-      }
-      myTd.innerText = this.textContent ;
+      myTd.innerHTML = `<span class="my-td-span">${$(this).text()}</span>`;
     });
+
+    tds[i].addEventListener('mouseout',function(event){
+      myTd.innerHTML = null;
+    });
+
     // tds[i].addEventListener('mouseover', function(event) {
     //   myTd.innerHTML = `<span>${this.innerText}</span>`
     // });
