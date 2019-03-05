@@ -43,4 +43,6 @@
   border-radius: 20px;
 }
 
-audio,video {width: 50%}
+audio, video {
+  width: 50%;
+}
