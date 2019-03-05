@@ -33,11 +33,16 @@ window.onload = function(){
   //-------------------------------
   for (var i=0; i < tds.length; i++){
     tds[i].addEventListener('mouseover',function(event){
-      event.preventDefault();
       for (var i=highlighteds.length-1; i>=0;i--){
         myTd.innerText = 'null';
       }
       myTd.innerText = this.textContent ;
     });
+    // tds[i].addEventListener('mouseover', function(event) {
+    //   myTd.innerHTML = `<span>${this.innerText}</span>`
+    // });
+    // tds[i].addEventListener('mouseout', function(event) {
+    //   myTd.innerHTML = null;
+    // });
   }
 }
