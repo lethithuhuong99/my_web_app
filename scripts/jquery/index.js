@@ -2,7 +2,10 @@ $(window).resize(logScreenSize);
 
 
 $(function(){
-  logScreenSize();
+  // logScreenSize();
+  // resizeButtons('.my-button-people-name');
+  // resizeButtons('.my-button-jump-to-people');
+  resizeElements(['.my-button-people-name','.my-button-jump-to-people']);
 });
 
 
@@ -34,7 +37,22 @@ function logScreenSize(){
 
   }
 
-
   console.log(`The size of your screen is ${size}`);
 
+}
+
+function resizeElements(elements){
+  $.each(elements,function(index, element) {
+    var width = 0;
+    $(element).css('width','auto');
+
+    $(element).each(function(){
+      var thisWidth = parseFloat($(this).css('width'));
+      if (thisWidth > width) {
+        width=thisWidth;
+      }
+      // console.log($(this).css('width'));
+    });
+    $(element).css('width',width);
+  });
 }

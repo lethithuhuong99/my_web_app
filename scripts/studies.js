@@ -40,11 +40,5 @@ window.onload = function(){
       myTd.innerHTML = null;
     });
 
-    // tds[i].addEventListener('mouseover', function(event) {
-    //   myTd.innerHTML = `<span>${this.innerText}</span>`
-    // });
-    // tds[i].addEventListener('mouseout', function(event) {
-    //   myTd.innerHTML = null;
-    // });
   }
 }
