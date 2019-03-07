@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title> MyStudies </title>
-    <link rel="stylesheet" type="text/css" href="./css/app.css">
-    <link rel="stylesheet" type="text/css" href="./css/studies.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>My studies</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet"  type="text/css" href="css/studies.css">
   </head>
   <body>
     <h1>My Studies</h1>
@@ -12,19 +15,43 @@
     <table>
       <thead>
         <tr>
-          <th>YEAR</th>
-          <th>SCHOOL</th>
-          <th>TOWN</th>
-          <th>COUNTRY</th>
+          <th>Studies</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td>2003-2005</td>
-          <td>Vinh Long Kindergarten</td>
-          <td rowspan="4">Quang Tri</td>
-          <td rowspan="5">Viet Nam</td>
+          <td>
+            <div class="row">
+              <div class="col-md-2 col-sm-6 my-study">
+                <span class="my-header">YEAR</span>
+                <div class="my-content">
+                  <span class="btn btn-xs btn-success my-study-open">
+                    <i class="fas fa-caret-down" aria-hidden="true"></i>
+                  </span>
+                  <span class="btn btn-xs btn-danger my-study-close d-none">
+                    <i class="fas fa-caret-up" aria-hidden="true"></i>
+                  </span>
+                  <span>2003-2005</span>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6 my-study my-study-detail my-study-detail-hidden">
+                <span class="my-header">SCHOOL</span>
+                <div class="my-content">Vinh Long Kindergarten</div>
+              </div>
+
+              <div class="col-md-4 col-sm-6 my-study my-study-detail my-study-detail-hidden">
+                <span class="my-header">TOWN</span>
+                <div class="my-content">Quang Tri</div>
+              </div>
+
+              <div class="col-md-3 col-sm-6 my-study my-study-detail my-study-detail-hidden">
+                <span class="my-header">COUNTRY</span>
+                <div class="my-content">Việt Nam</div>
+              </div>
+            </div>
+          </td>
         </tr>
 
         <tr>
@@ -51,8 +78,11 @@
     </table>
 
     <div id = "my-td"></div>
+
     <script type="text/javascript" src="./scripts/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./scripts/jquery/app.js"></script>
     <script type="text/javascript" src="./scripts/jquery/studies.js"></script>
-    <!-- <script type="text/javascript" src="./scripts/studies.js"></script> -->
+
   </body>
 </html>

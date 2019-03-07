@@ -56,3 +56,44 @@ tbody > tr:hover{
   font-weight: bold;
   padding: 19px;
 }
+
+.my-header {
+    background-color: #333;
+    color: #aaa;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.my-content {
+    margin-top: 3px;
+}
+
+.my-header,
+.my-content {
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+.my-study {
+  margin: 10px 0 10px 0;
+}
+
+.my-study-open,
+.my-study-close {
+  margin-right: 10px;
+}
+
+.my-study-detail-hidden {
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .my-study-open,
+  .my-study-close {
+    display: none;
+  }
+
+  .my-study-detail-hidden {
+    display: block;
+  }
+}
