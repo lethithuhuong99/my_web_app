@@ -11,17 +11,17 @@
   </head>
 
   <body>
-    <h1> LE THI THU HUONG </h1>
-    <h2> Student </h2>
-
-    <figure>
-      <img src="./images/meb.jpg" alt="thu huong">
-      <figcaption>
-        Thu Huong
-      </figcaption>
-    </figure>
-
     <div class="me">
+
+      <h1> LE THI THU HUONG </h1>
+      <h2> Student </h2>
+
+      <figure class="text-center">
+        <img class = "d-none d-sm-block" src="./images/meb.jpg" alt="thu huong">
+        <img class = "d-block d-sm-none" src="./images/h.jpg" alt="thu huong">
+        <figcaption> Thu Huong </figcaption>
+      </figure>
+
       <p>
         Tôi là Thu Hương, sinh ngày 28 tháng 5 năm 1999. Tôi sinh ra và lớn lên tại Quảng Trị. Hiện tại tôi là sinh viên năm hai ngành khoa học máy tính tại Viện nghiên cứu và Đào tạo Việt Anh tại thành phố Đà Nẵng.
       </p>
@@ -38,228 +38,244 @@
       </p>
 
       <p>
-        Bạn có thể tìm hiểu về quá trình học tập của tôi: <a href="./studies.html"> here </a>
+        Bạn có thể tìm hiểu về quá trình học tập của tôi: <a href="./studies.html"> tại đây </a>
       </p>
 
       <p id = "top">
         Người mà tôi hâm mộ là:
       </p>
-
+    </div>
 
       <!-- People I admire -->
 
-      <div>
+      <div class = "my-flexbox-container">
         <div class="my-padding-right-19">
-          <button type="button" class="my-button-people-name">
+          <button type="button" class="my-button-people-name btn btn-secondary">
             Lee Jong Suk
           </button>
 
-          <button type="button" class="my-button-jump-to-people">
+          <button type="button" class="my-button-jump-to-people d-none btn btn-danger">
             <a href="#leejongsuk">#</a>
           </button>
         </div>
 
         <div class="my-padding-right-19">
-          <button type="button" class="my-button-people-name">
+          <button type="button" class="my-button-people-name btn btn-secondary">
             Park Shin Hye
           </button>
 
-          <button type="button" class="my-button-jump-to-people">
+          <button type="button" class="my-button-jump-to-people d-none btn btn-danger">
             <a href="#parkshinhye">#</a>
           </button>
         </div>
 
         <div class="my-padding-right-19">
-          <button type="button" class="my-button-people-name">
+          <button type="button" class="my-button-people-name btn btn-secondary">
             Buyn Beak-Huyn
           </button>
 
-          <button type="button" class="my-button-jump-to-people">
+          <button type="button" class="my-button-jump-to-people d-none btn btn-danger">
             <a href="#buynbaek-huyn">#</a>
           </button>
         </div>
 
         <div>
-          <button type="button" class="my-button-people-name">
+          <button type="button" class="my-button-people-name btn btn-secondary">
             Triệu Lệ Dĩnh
           </button>
 
-          <button type="button" class="my-button-jump-to-people">
+          <button type="button" class="my-button-jump-to-people d-none btn btn-danger">
             <a href="#trieuledinh">#</a>
           </button>
         </div>
       </div>
 
-    </div>
-
 
 <!-- COMBAK: Lee Jong Suk -->
-    <div = class "people" id = "leejongsuk">
-      <a href="https://vi.wikipedia.org/wiki/Lee_Jong-suk" target="_blank">
-        <h1> LEE JONG SUK VAT</h1>
-      </a>
+    <div class = "people d-none" id="leejongsuk">
+      <div class="name">
 
-      <h2> Actor </h2>
+        <a href="https://vi.wikipedia.org/wiki/Lee_Jong-suk" target="_blank">
+          <h1> LEE JONG SUK</h1>
+        </a>
 
-      <figure>
-        <img src="./images/b1.jpg" alt="Lee Jong Suk">
-        <figcaption>
-          Lee Jong Suk
-        </figcaption>
-      </figure>
+        <h2> Actor </h2>
 
-      <a href="#top">
-        Top
-      </a>
+        <figure>
+          <img src="./images/b1.jpg" alt="Lee Jong Suk">
+          <figcaption>
+            Lee Jong Suk
+          </figcaption>
+        </figure>
 
-      <p>
-        Lee Jong Suk (이종석, sinh ngày 14 tháng 9 năm 1989) là diễn viên, người mẫu người Hàn Quốc. Anh ra mắt vào năm 2005 với bộ phim ngắn Sympathy. Jong Suk xuất hiện trên CF của một số công ty và đặc biệt cho CASS Beer Fresh cùng với Kim Woo-bin và New Asics với Ha Ji Won. Anh đã giành giải "Diễn viên mới xuất sắc nhất" tại 2012 KBS Drama Awards - cho School 2013. Năm 2013 Lee Jong Suk được xếp vị trí thứ 5 trong một cuộc khảo sát tiêu đề 'Diễn viên tỏa sáng 2013' bởi Gallup Korea, một trong những giải thưởng danh giá trong ngành giải trí Hàn Quốc.
-      </p>
+        <a href="#top"> Top  </a>
+      </div>
 
-      <p>
-        Lee Jong Suk, người chuyên ngành nghệ thuật điện ảnh chuyên nghiệp tại Đại học Konkuk, từng tham gia thi tuyển diễn viên vào đài truyền hình SBS TV khi anh còn là học sinh trung học. Anh tham gia diễn xuất cho SBS vào lần tuyển dụng thứ 7
-      </p>
+      <div class="biography">
 
-      <p>
-        Trong lĩnh vực người mẫu, Lee Jong Suk trở thành người mẫu nam trẻ nhất của chương trình Seoul Collection.
-      </p>
+        <p>
+          Lee Jong Suk (이종석, sinh ngày 14 tháng 9 năm 1989) là diễn viên, người mẫu người Hàn Quốc. Anh ra mắt vào năm 2005 với bộ phim ngắn Sympathy. Jong Suk xuất hiện trên CF của một số công ty và đặc biệt cho CASS Beer Fresh cùng với Kim Woo-bin và New Asics với Ha Ji Won. Anh đã giành giải "Diễn viên mới xuất sắc nhất" tại 2012 KBS Drama Awards - cho School 2013. Năm 2013 Lee Jong Suk được xếp vị trí thứ 5 trong một cuộc khảo sát tiêu đề 'Diễn viên tỏa sáng 2013' bởi Gallup Korea, một trong những giải thưởng danh giá trong ngành giải trí Hàn Quốc.
+        </p>
 
-      <p>
-        Năm 2010, Lee tham gia vào 2 bộ phim truyền hình Hàn Quốc là Prosecutor Princess và Secret Garden. Lee thu hút mọi người bởi chiều cao, vẻ quyến rũ của chính anh cũng như cách diễn xuất tự nhiên. Thành công và được nhiều người biết đến nhất là vai trò nhạc sĩ trong phim Secret Garden.
-      </p>
+        <p>
+          Lee Jong Suk, người chuyên ngành nghệ thuật điện ảnh chuyên nghiệp tại Đại học Konkuk, từng tham gia thi tuyển diễn viên vào đài truyền hình SBS TV khi anh còn là học sinh trung học. Anh tham gia diễn xuất cho SBS vào lần tuyển dụng thứ 7
+        </p>
 
-      <p>
-        Tháng 9 2011, Lee xuất hiện trong High Kick Season 3 của MBC.[3][4]
-        Sau lần đóng bộ phim kinh dị Ghosts, Jong Suk bắt đầu đóng phim R2B: Return to Base với vai trò là diễn viên chính trong bộ phim bay đầu tiên. Anh giữ vai trò quan trọng cùng với Rain xuất hiện như một phần của đội phi công F-15K. Nó được làm lại từ bộ phim Hàn Quốc gốc năm 1964 Red Muffler/Scarf trong suốt chiến tranh Hàn Quốc.
-      </p>
-      <video controls>
-        <source src="./video/leejongsuk.mp4" type="video/mp4">
-      </video>
+        <p>
+          Trong lĩnh vực người mẫu, Lee Jong Suk trở thành người mẫu nam trẻ nhất của chương trình Seoul Collection.
+        </p>
 
+        <p>
+          Năm 2010, Lee tham gia vào 2 bộ phim truyền hình Hàn Quốc là Prosecutor Princess và Secret Garden. Lee thu hút mọi người bởi chiều cao, vẻ quyến rũ của chính anh cũng như cách diễn xuất tự nhiên. Thành công và được nhiều người biết đến nhất là vai trò nhạc sĩ trong phim Secret Garden.
+        </p>
+
+        <p>
+          Tháng 9 2011, Lee xuất hiện trong High Kick Season 3 của MBC.[3][4]
+          Sau lần đóng bộ phim kinh dị Ghosts, Jong Suk bắt đầu đóng phim R2B: Return to Base với vai trò là diễn viên chính trong bộ phim bay đầu tiên. Anh giữ vai trò quan trọng cùng với Rain xuất hiện như một phần của đội phi công F-15K. Nó được làm lại từ bộ phim Hàn Quốc gốc năm 1964 Red Muffler/Scarf trong suốt chiến tranh Hàn Quốc.
+        </p>
+        <video controls>
+          <source src="./video/leejongsuk.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
 
   <!-- COMBAK: Park Shin Hey -->
-    <div = class "people" id = "parkshinhye">
-      <a href="https://vi.wikipedia.org/wiki/Park_Shin-hye" target="_blank">
-        <h1> PARK SHIN HYE </h1>
-      </a>
-      <h2> Actor </h2>
+    <div class="people d-none" id = "parkshinhye">
+      <div class="name">
 
-      <figure>
-        <img src="./images/b2.jpg" alt="Park Shin Hey">
-        <figcaption>
-          Park Shin Hye
-        </figcaption>
-      </figure>
+        <a href="https://vi.wikipedia.org/wiki/Park_Shin-hye" target="_blank">
+          <h1> PARK SHIN HYE </h1>
+        </a>
+        <h2> Actor </h2>
 
-      <a href="#top">
-        Top
-      </a>
+        <figure>
+          <img src="./images/b2.jpg" alt="Park Shin Hey">
+          <figcaption>
+            Park Shin Hye
+          </figcaption>
+        </figure>
 
-      <p>
-        Park Shin Hye (sinh ngày 18 tháng 2 năm 1990) là một nữ diễn viên, ca sĩ và người mẫu Hàn Quốc. Cô ra mắt năm 2001 trong MV của ca sĩ nhạc pop Lee Seung Hwan "Sarang Ha Na Yo - Do You Love?".
-      </p>
+        <a href="#top">
+          Top
+        </a>
+      </div>
 
-      <p>
-        Park Shin Hye sinh ra tại Gwangju, Hàn Quốc. Gia đình của cô gồm cha mẹ và một người anh trai. Bố Shin Hye là nghệ sĩ sacxophone chuyên nghiệp, mẹ Shin Hye là nghệ sĩ chơi sáo ocarina, anh trai Shin Hye là 1 tay guitar.
-        Năm 2001, cô debut trong video âm nhạc "Sarang Ha Na Yo - Do You Love?" của Lee Seung Hwan và làm việc trong "Dream Factory". Cô đã thông qua các buổi thử giọng, gia nhập công ty và bắt đầu được đào tạo như một ca sĩ. Nhưng sau một thời gian, cô chuyển sang làm diễn viên nhí.
-      </p>
+      <div class="biography">
 
-      <p>
-        Vai diễn đầu tay của cô tạo được ấn tượng khi vào vai Han Jung-su hồi nhỏ trong bộ phim ăn khách Nấc thang lên thiên đường. Lúc 16 tuổi, cô vào vai nữ chính lần đầu tiên trong bộ phim truyền hình Tree of Heaven phát sóng trên SBS cùng với nam diễn viên Lee Wan đã từng hợp tác trong Nấc thang lên thiên đường. Cô cũng là nữ diễn viên trẻ nhất được đóng vai chính một bộ phim truyền hình. Trong phim, Shin Hye vào vai Hana một cô gái người Nhật. Bộ phim này được các nhà chuyên môn đánh giá tích cực. Cô dược các fan ví von là " Nữ hoàng phim bi tuổi teen ". Cũng nhờ độ nổi tiếng của bộ phim, Shin Hye đã nhận được nhiều hợp đồng quảng cáo và là người mẫu cho một số công ty. Cô cũng hát một bài cho nhạc phim này.
-      </p>
+        <p>
+          Park Shin Hye (sinh ngày 18 tháng 2 năm 1990) là một nữ diễn viên, ca sĩ và người mẫu Hàn Quốc. Cô ra mắt năm 2001 trong MV của ca sĩ nhạc pop Lee Seung Hwan "Sarang Ha Na Yo - Do You Love?".
+        </p>
 
-      <p>
-        The Evil Twin là phim kinh dị cổ trang đầu tiên do nữ diễn viên trẻ này đóng năm 2007, phim lấy bối cảnh vào thời đại Joseon ở ngôi làng Seorae. Sau đó, cô đóng một trong bốn nhân vật chính của bộ phim Goong S. Bộ phim này không thành công như mong đợi. Nhưng đến năm 2009, Shin Hye đã làm nên một bước ngoặt lớn trong sự nghiệp khi vào vai cô nàng giả trai ngốc nghếch, cá tính Go Mi Nam trong bộ phim truyền hình You're Beautiful. Nhờ thành công lớn của bộ phim, Park Shin Hye được coi như một ngôi sao hallyu thế hệ mới của Hàn Quốc và mọi người công nhận là một diễn viên trưởng thành. Năm 2011, cô tham gia tiếp phim thần tượng mang tên Heartstrings. Trước ngày công chiếu, số đĩa đặt trước tới 50000 bản.
-      </p>
+        <p>
+          Park Shin Hye sinh ra tại Gwangju, Hàn Quốc. Gia đình của cô gồm cha mẹ và một người anh trai. Bố Shin Hye là nghệ sĩ sacxophone chuyên nghiệp, mẹ Shin Hye là nghệ sĩ chơi sáo ocarina, anh trai Shin Hye là 1 tay guitar.
+          Năm 2001, cô debut trong video âm nhạc "Sarang Ha Na Yo - Do You Love?" của Lee Seung Hwan và làm việc trong "Dream Factory". Cô đã thông qua các buổi thử giọng, gia nhập công ty và bắt đầu được đào tạo như một ca sĩ. Nhưng sau một thời gian, cô chuyển sang làm diễn viên nhí.
+        </p>
 
-      <video controls>
-        <source src="./video/parkshinhye.mp4" type="video/mp4">
-      </video>
+        <p>
+          Vai diễn đầu tay của cô tạo được ấn tượng khi vào vai Han Jung-su hồi nhỏ trong bộ phim ăn khách Nấc thang lên thiên đường. Lúc 16 tuổi, cô vào vai nữ chính lần đầu tiên trong bộ phim truyền hình Tree of Heaven phát sóng trên SBS cùng với nam diễn viên Lee Wan đã từng hợp tác trong Nấc thang lên thiên đường. Cô cũng là nữ diễn viên trẻ nhất được đóng vai chính một bộ phim truyền hình. Trong phim, Shin Hye vào vai Hana một cô gái người Nhật. Bộ phim này được các nhà chuyên môn đánh giá tích cực. Cô dược các fan ví von là " Nữ hoàng phim bi tuổi teen ". Cũng nhờ độ nổi tiếng của bộ phim, Shin Hye đã nhận được nhiều hợp đồng quảng cáo và là người mẫu cho một số công ty. Cô cũng hát một bài cho nhạc phim này.
+        </p>
+
+        <p>
+          The Evil Twin là phim kinh dị cổ trang đầu tiên do nữ diễn viên trẻ này đóng năm 2007, phim lấy bối cảnh vào thời đại Joseon ở ngôi làng Seorae. Sau đó, cô đóng một trong bốn nhân vật chính của bộ phim Goong S. Bộ phim này không thành công như mong đợi. Nhưng đến năm 2009, Shin Hye đã làm nên một bước ngoặt lớn trong sự nghiệp khi vào vai cô nàng giả trai ngốc nghếch, cá tính Go Mi Nam trong bộ phim truyền hình You're Beautiful. Nhờ thành công lớn của bộ phim, Park Shin Hye được coi như một ngôi sao hallyu thế hệ mới của Hàn Quốc và mọi người công nhận là một diễn viên trưởng thành. Năm 2011, cô tham gia tiếp phim thần tượng mang tên Heartstrings. Trước ngày công chiếu, số đĩa đặt trước tới 50000 bản.
+        </p>
+
+        <video controls>
+          <source src="./video/parkshinhye.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
-
-  <!-- COMBAK: Byun Baek-hyun -->
-    <div = class "people" id = "buynbaek-huyn">
-      <a href="https://vi.wikipedia.org/wiki/Byun_Baek-hyun" target="_blank">
-        <h1> BYUN BAEK-HYUN </h1>
-      </a>
-      <h2> Singer </h2>
-
-      <figure>
-        <img src="./images/s3.jpg" alt="Byun Baek-hyun">
-        <figcaption>
-          Byun Baek-hyun
-        </figcaption>
-      </figure>
-
-      <a href="#top">
-        Top
-      </a>
-
-      <p>
-        Byun Baek-hyun (sinh ngày 6 tháng 5 năm 1992), thường được biết đến với nghệ danh Baekhyun, là một nam ca sĩ kiêm diễn viên người Hàn Quốc, thành viên của nhóm nhạc nam Hàn Quốc EXO và nhóm nhỏ EXO-CBX do S.M. Entertainment thành lập và quản lý.
-      </p>
-
-      <p>
-        Baekhyun được sinh ra vào ngày 6 tháng 5 năm 1992 tại thành phố Bucheon, tỉnh Gyeonggi, Hàn Quốc. Năm 2011, khi đang theo học tại trường trung học Jungwon, Baekhyun tham gia vào một ban nhạc của trường và giành giải thưởng tại một chương trình biểu diễn nhạc rock địa phương.[1] Khi đang chuẩn bị cho kì thi đại học, anh được nhân viên của S.M. Entertainment phát hiện và trở thành thực tập sinh của công ty.[1][2] Baekhyun từng cho biết Rain là một trong những người gây ảnh hưởng tới quyết định trở thành ca sĩ của mình.
-      </p>
-
-      <p>
-        Baekhyun là một trong những thành viên cuối cùng gia nhập vào EXO[3] và được công bố là thành viên chính thức thứ 9 của nhóm vào ngày 30 tháng 1 năm 2012.[4] Anh đảm nhận vai trò hát chính của nhóm.
-      </p>
-
-      <p>
-        Từ tháng 2 năm 2014 đến tháng 12 năm 2014, Baekhyun và thành viên cùng nhóm Suho đảm nhận vai trò người dẫn chương trình cho chương trình âm nhạc Inkigayo.[5][6] Ngày 8 tháng 7 năm 2014, anh bắt đầu tham gia vở nhạc kịch Hàn Quốc Singin' in the Rain do SM C&C sản xuất, đảm nhận vai chính Don Lockwood
-      </p>
-
-      <p>
-        Tháng 4 năm 2015, Baekhyun phát hành bài hát Beautiful, nhạc phim của web drama EXO Next Door. Bài hát đứng đầu trên nhiều bảng xếp hạng ở cả Trung Quốc và Hàn Quốc.[8] Tháng 5 năm 2015, Baekhyun và diễn viên Yeo Jingoo được xác nhận sẽ tham gia bộ phim điện ảnh Dokgo,[9] tuy nhiên việc sản xuất bộ phim được công bố là đã bị hủy bỏ vào tháng 1 năm 2016.[10] Ngày 28 tháng 12 năm 2015, Baekhyun biểu diễn bài hát Like Rain Like Music để tưởng nhớ nam ca sĩ Hàn Quốc quá cố Kim Hyun-sik trong chương trình âm nhạc cuối năm Gayo Daejun của đài SBS.[11] Ngay sau đó phiên bản phòng thu của bài hát được phát hành trực tuyến trên các trang web âm nhạc Hàn Quốc.
-      </p>
-
-      <audio controls>
-        <source src="./audio/beakhuyn.mp3" type="audio/mp3">
-      </audio>
-
-    </div>
-
 <!-- COMBAK: Triệu Lệ Dĩnh -->
-    <div = class "people" id = "trieuledinh">
-      <a href="https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_L%E1%BB%87_D%C4%A9nh" target="_blank">
-        <h1> TRIỆU LỆ DĨNH </h1>
-      </a>
-      <h2> Actress </h2>
+    <div class="people d-none" id = "trieuledinh">
+      <div class="name">
 
-      <figure>
-        <img src="./images/b4.jpg" alt="Triệu Lệ Dĩnh">
-        <figcaption>
-          Triệu Lệ Dĩnh
-        </figcaption>
-      </figure>
+        <a href="https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_L%E1%BB%87_D%C4%A9nh" target="_blank">
+          <h1> TRIỆU LỆ DĨNH </h1>
+        </a>
+        <h2> Actress </h2>
 
-      <a href="#top">
-        Top
-      </a>
+        <figure>
+          <img src="./images/b4.jpg" alt="Triệu Lệ Dĩnh">
+          <figcaption>
+            Triệu Lệ Dĩnh
+          </figcaption>
+        </figure>
 
-      <p>
-        Triệu Lệ Dĩnh (sinh ngày 16 tháng 10 năm 1987) là nữ diễn viên người Trung Quốc.
-      </p>
+        <a href="#top">
+          Top
+        </a>
+      </div>
 
-      <p>
-        Năm 2015, bộ phim Hoa Thiên Cốt (với sự góp mặt của Hoắc Kiến Hoa, ...) đạt tỉ suất xem đài cao lịch sử, trở thành một trong những bom tấn của màn ảnh Trung Quốc cũng như châu Á, mở ra thời kì mới của Triệu Lệ Dĩnh. Cuối năm 2015, với vai diễn Hoa Thiên Cốt trong phim Hoa Thiên Cốt, cô giành Giải "Hoa sen vàng'' Nữ diễn viên truyền hình xuất sắc nhất - LHP điện ảnh truyền hình quốc tế Macau lần thứ 6 (Macau International Movie/TV Festival 2015)
-      </p>
+      <div class="biography">
 
-      <p>
-        Năm 2017, Triệu Lệ Dĩnh được mời đóng vai chính (Sở Kiều) trong Sở Kiều Truyện được chuyển thể từ tiểu thuyết Hoàng Phi Sở Đặc Công số 11 của tác giả Tiêu Tương Đông Nhi và trở thành bộ phim cổ trang được các bạn trẻ yêu thích được phát sóng trên Đài Hồ Nam. Phim có rating cao nhất khung giờ khuya năm 2017 và xếp thứ 2 trong lịch sử khung giờ khuya ở Trung Quốc (sau Hoa Thiên Cốt). Kết thúc phát sóng với 42.9 TỶ LƯỢT xem online (trong 58 ngày) Thiết lập kỷ lục drama có lượt view cao nhất từ trước đến nay. - Drama đầu tiên cán mốc 30 tỷ lượt xem trong thời gian phát sóng, cán mốc 30 tỷ sau 48 tập phim - Drama đầu tiên cán mốc 40 tỷ lượt xem trong thời gian sóng, với 64 tập.
-      </p>
+        <p>
+          Triệu Lệ Dĩnh (sinh ngày 16 tháng 10 năm 1987) là nữ diễn viên người Trung Quốc.
+        </p>
 
-      <p>
-        Năm 2018. Triệu Lệ Dĩnh được chọn vào bảng Nhân vật (nữ diễn viên) của Lễ kỉ niệm 60 năm truyền hình Trung Quốc do Tổ chức xã hội phát hành điện ảnh truyền hình Trung Quốc liên hợp với Hội uỷ Hội diễn viên Trung Quốc bình chọn, trở thành nữ diễn viên trẻ tuổi nhất trong số 66 người được chọn. Đồng thời Triệu Lệ Dĩnh lọt vào danh sách đề cử Nữ diễn viên của năm 2017 do Hiệp hội đạo diễn điện ảnh Trung Quốc bình chọn cho vai tiểu Hoa (Vượt gió phá sóng)
-      </p>
-      <iframe width="697" height="392" src="https://www.youtube.com/embed/qk048803rQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>
+          Năm 2015, bộ phim Hoa Thiên Cốt (với sự góp mặt của Hoắc Kiến Hoa, ...) đạt tỉ suất xem đài cao lịch sử, trở thành một trong những bom tấn của màn ảnh Trung Quốc cũng như châu Á, mở ra thời kì mới của Triệu Lệ Dĩnh. Cuối năm 2015, với vai diễn Hoa Thiên Cốt trong phim Hoa Thiên Cốt, cô giành Giải "Hoa sen vàng'' Nữ diễn viên truyền hình xuất sắc nhất - LHP điện ảnh truyền hình quốc tế Macau lần thứ 6 (Macau International Movie/TV Festival 2015)
+        </p>
 
+        <p>
+          Năm 2017, Triệu Lệ Dĩnh được mời đóng vai chính (Sở Kiều) trong Sở Kiều Truyện được chuyển thể từ tiểu thuyết Hoàng Phi Sở Đặc Công số 11 của tác giả Tiêu Tương Đông Nhi và trở thành bộ phim cổ trang được các bạn trẻ yêu thích được phát sóng trên Đài Hồ Nam. Phim có rating cao nhất khung giờ khuya năm 2017 và xếp thứ 2 trong lịch sử khung giờ khuya ở Trung Quốc (sau Hoa Thiên Cốt). Kết thúc phát sóng với 42.9 TỶ LƯỢT xem online (trong 58 ngày) Thiết lập kỷ lục drama có lượt view cao nhất từ trước đến nay. - Drama đầu tiên cán mốc 30 tỷ lượt xem trong thời gian phát sóng, cán mốc 30 tỷ sau 48 tập phim - Drama đầu tiên cán mốc 40 tỷ lượt xem trong thời gian sóng, với 64 tập.
+        </p>
+
+        <p>
+          Năm 2018. Triệu Lệ Dĩnh được chọn vào bảng Nhân vật (nữ diễn viên) của Lễ kỉ niệm 60 năm truyền hình Trung Quốc do Tổ chức xã hội phát hành điện ảnh truyền hình Trung Quốc liên hợp với Hội uỷ Hội diễn viên Trung Quốc bình chọn, trở thành nữ diễn viên trẻ tuổi nhất trong số 66 người được chọn. Đồng thời Triệu Lệ Dĩnh lọt vào danh sách đề cử Nữ diễn viên của năm 2017 do Hiệp hội đạo diễn điện ảnh Trung Quốc bình chọn cho vai tiểu Hoa (Vượt gió phá sóng)
+        </p>
+        <iframe width="697" height="392" src="https://www.youtube.com/embed/qk048803rQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  <!-- COMBAK: Byun Baek-hyun -->
+    <div class="people d-none" id = "buynbaek-huyn">
+      <div class="name">
+
+        <a href="https://vi.wikipedia.org/wiki/Byun_Baek-hyun" target="_blank">
+          <h1> BYUN BAEK-HYUN </h1>
+        </a>
+        <h2> Singer </h2>
+
+        <figure>
+          <img src="./images/s3.jpg" alt="Byun Baek-hyun">
+          <figcaption>
+            Byun Baek-hyun
+          </figcaption>
+        </figure>
+
+        <a href="#top">
+          Top
+        </a>
+      </div>
+
+      <div class="biography">
+
+        <p>
+          Byun Baek-hyun (sinh ngày 6 tháng 5 năm 1992), thường được biết đến với nghệ danh Baekhyun, là một nam ca sĩ kiêm diễn viên người Hàn Quốc, thành viên của nhóm nhạc nam Hàn Quốc EXO và nhóm nhỏ EXO-CBX do S.M. Entertainment thành lập và quản lý.
+        </p>
+
+        <p>
+          Baekhyun được sinh ra vào ngày 6 tháng 5 năm 1992 tại thành phố Bucheon, tỉnh Gyeonggi, Hàn Quốc. Năm 2011, khi đang theo học tại trường trung học Jungwon, Baekhyun tham gia vào một ban nhạc của trường và giành giải thưởng tại một chương trình biểu diễn nhạc rock địa phương.[1] Khi đang chuẩn bị cho kì thi đại học, anh được nhân viên của S.M. Entertainment phát hiện và trở thành thực tập sinh của công ty.[1][2] Baekhyun từng cho biết Rain là một trong những người gây ảnh hưởng tới quyết định trở thành ca sĩ của mình.
+        </p>
+
+        <p>
+          Baekhyun là một trong những thành viên cuối cùng gia nhập vào EXO[3] và được công bố là thành viên chính thức thứ 9 của nhóm vào ngày 30 tháng 1 năm 2012.[4] Anh đảm nhận vai trò hát chính của nhóm.
+        </p>
+
+        <p>
+          Từ tháng 2 năm 2014 đến tháng 12 năm 2014, Baekhyun và thành viên cùng nhóm Suho đảm nhận vai trò người dẫn chương trình cho chương trình âm nhạc Inkigayo.[5][6] Ngày 8 tháng 7 năm 2014, anh bắt đầu tham gia vở nhạc kịch Hàn Quốc Singin' in the Rain do SM C&C sản xuất, đảm nhận vai chính Don Lockwood
+        </p>
+
+        <p>
+          Tháng 4 năm 2015, Baekhyun phát hành bài hát Beautiful, nhạc phim của web drama EXO Next Door. Bài hát đứng đầu trên nhiều bảng xếp hạng ở cả Trung Quốc và Hàn Quốc.[8] Tháng 5 năm 2015, Baekhyun và diễn viên Yeo Jingoo được xác nhận sẽ tham gia bộ phim điện ảnh Dokgo,[9] tuy nhiên việc sản xuất bộ phim được công bố là đã bị hủy bỏ vào tháng 1 năm 2016.[10] Ngày 28 tháng 12 năm 2015, Baekhyun biểu diễn bài hát Like Rain Like Music để tưởng nhớ nam ca sĩ Hàn Quốc quá cố Kim Hyun-sik trong chương trình âm nhạc cuối năm Gayo Daejun của đài SBS.[11] Ngay sau đó phiên bản phòng thu của bài hát được phát hành trực tuyến trên các trang web âm nhạc Hàn Quốc.
+        </p>
+
+        <audio controls>
+          <source src="./audio/beakhuyn.mp3" type="audio/mp3">
+          </audio>
+      </div>
     </div>
 
     <script type="text/javascript" src="./scripts/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/modernizr/modernizr.mq.js"></script>
     <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./scripts/jquery/app.js"></script>
     <script type="text/javascript" src="./scripts/jquery/index.js"></script>

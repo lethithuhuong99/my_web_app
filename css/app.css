@@ -7,10 +7,9 @@
 body {
   color: #000;
   background-color: #fff;
-  font-size: 12 px;
+  font-size: 20 px;
   font-family: "huong-font";
-  font-size: 19px;
-  font-family: "huong-font";
+
 }
 
 
@@ -19,9 +18,10 @@ p {
 }
 
 figure {
-  border: 3px solid #fff;
-  border-radius: 20px;
+  border: 5px solid #fff;
+  border-radius: 30px;
   width: 100%;
+  padding: 50px;
   text-align: center;
 }
 
@@ -32,6 +32,11 @@ img {
 figcaption {
   text-align: center;
   font-style: italic;
+}
+
+
+audio, video {
+  width: 50%;
 }
 
 .my-padding-right-19 {
